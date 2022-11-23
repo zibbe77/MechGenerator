@@ -218,7 +218,7 @@ GameObject:
   - component: {fileID: 1100334062}
   - component: {fileID: 1100334061}
   - component: {fileID: 1100334060}
-  - component: {fileID: 1100334059}
+  - component: {fileID: 1100334063}
   m_Layer: 0
   m_Name: GridBase
   m_TagString: Untagged
@@ -226,21 +226,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1100334059
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1100334058}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 502d578d17ccaba43949db817c9a556d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cellSize: 1
-  gridOffset: {x: 0, y: 0, z: 0}
-  gridsizes: 3
 --- !u!23 &1100334060
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -306,6 +291,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1100334063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1100334058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81386d7fdb6b2004cbc831fbc3a47e6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cellSize: 1
+  gridOffset: {x: 0, y: 5, z: 0}
+  gridsizes: 3
 --- !u!1 &1889227269
 GameObject:
   m_ObjectHideFlags: 0
