@@ -300,12 +300,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1100334058}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81386d7fdb6b2004cbc831fbc3a47e6a, type: 3}
+  m_Script: {fileID: 11500000, guid: a1146afc1280f244aafaccf4b9854b27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cellSize: 1
-  gridOffset: {x: 0, y: 5, z: 0}
-  gridsizes: 3
+  gridOffset: {x: 0, y: 0, z: 0}
+  gridsizes: 9
 --- !u!1 &1889227269
 GameObject:
   m_ObjectHideFlags: 0
